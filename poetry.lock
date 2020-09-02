@@ -12,7 +12,7 @@ description = "make wrapper for RESTful API"
 name = "apywrapper"
 optional = false
 python-versions = ">=3.8,<4.0"
-version = "0.1.4"
+version = "0.1.6"
 
 [package.dependencies]
 dacite = ">=1.5.1,<2.0.0"
@@ -148,7 +148,7 @@ description = "The next generation HTTP client."
 name = "httpx"
 optional = false
 python-versions = ">=3.6"
-version = "0.14.2"
+version = "0.14.3"
 
 [package.dependencies]
 certifi = "*"
@@ -383,7 +383,7 @@ python-versions = "*"
 version = "1.12.1"
 
 [metadata]
-content-hash = "026ed3b53d303b06d11224c1fc49f8d7980a4d4b0feabfca9e817b37f736aa1c"
+content-hash = "4c6ae8d376378311228f22cc266861ec410e3769e37652c1655784c78aeddce5"
 lock-version = "1.0"
 python-versions = "^3.8"
 
@@ -393,8 +393,8 @@ appdirs = [
     {file = "appdirs-1.4.4.tar.gz", hash = "sha256:7d5d0167b2b1ba821647616af46a749d1c653740dd0d2415100fe26e27afdf41"},
 ]
 apywrapper = [
-    {file = "apywrapper-0.1.4-py3-none-any.whl", hash = "sha256:277eccc6b33fa4160bc0335d46baffbc1e78056186728585e71dbc7508f83685"},
-    {file = "apywrapper-0.1.4.tar.gz", hash = "sha256:9115c454180d7871ab5b42031e333f769f4c414f147ed77f5250a8d887fc9c17"},
+    {file = "apywrapper-0.1.6-py3-none-any.whl", hash = "sha256:fbb8bc0dc223012d004bd8cc9aa46421f26cfc15f176537e70b3a48f0165aaff"},
+    {file = "apywrapper-0.1.6.tar.gz", hash = "sha256:a0ffd1ecbee84270e15a9416c2f408cb5edb8713154e18c0ea8da0cb3b29028b"},
 ]
 astroid = [
     {file = "astroid-2.4.2-py3-none-any.whl", hash = "sha256:bc58d83eb610252fd8de6363e39d4f1d0619c894b0ed24603b881c02e64c7386"},
@@ -441,8 +441,8 @@ httpcore = [
     {file = "httpcore-0.10.2.tar.gz", hash = "sha256:93a4caf743e7ed29dbf7900515f0917babaa26bfaae6fb6c922ca1228519d400"},
 ]
 httpx = [
-    {file = "httpx-0.14.2-py3-none-any.whl", hash = "sha256:1e46926afdfdb68f926c90870682db71bc4121f53dc6b56f39a067ca9026e1d2"},
-    {file = "httpx-0.14.2.tar.gz", hash = "sha256:51c63dbc2d68eb70b5812aed8161b236fd04ecbd9727ae265a0f422398aea6f9"},
+    {file = "httpx-0.14.3-py3-none-any.whl", hash = "sha256:3f2aa21d927ac56bfabdb82d079cf5ddd5b3147130dedc5fe8fed3a24e7a8d34"},
+    {file = "httpx-0.14.3.tar.gz", hash = "sha256:96bd4de4e6b742d672e2338720baf98518efaf85c86e0b48218e1bef9f272333"},
 ]
 idna = [
     {file = "idna-2.10-py2.py3-none-any.whl", hash = "sha256:b97d804b1e9b523befed77c48dacec60e6dcb0b5391d57af6a65a312a90648c0"},
