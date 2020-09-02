@@ -30,3 +30,11 @@ class Comment:
     rendered_body: str
     updated_at: str
     user: User
+
+
+@dataclass
+class Tag:
+    followers_count: int
+    icon_url: Optional[str]
+    id: str
+    items_count: int
